@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": ""
+  },
+  "text": {
+    "more": "",
+    "intro": "The full network of boards of directors in Belgium. We visualized the 250 largest companies of 14 different sectors in Belgium. \nThe size of the nodes represents the degree of the node. Thus the more interlocks a board has the bigger its node. \nEdges occur when 2 boards are interlocked. This means they share at least 1 director on the board of directors. \nThe colors are used to group companies into different clusters. \nYou can click on a node to see al of its characteristics and direct interlocks or hover over a node to see its name.\nThe group selector navigator allows to choose specific clusters to look at. It also displays the number of boards in each cluster.",
+    "title": ""
+  },
+  "legend": {
+    "edgeLabel": "Interlocks",
+    "colorLabel": "Hubs, clusters of relatively stronger connected boards",
+    "nodeLabel": "Boards"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
